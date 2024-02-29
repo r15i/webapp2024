@@ -1,6 +1,6 @@
 ## The project for Web application 
 
-Group components:
+Group components (add yourself):
   - Emilio Risi 
 
 
