@@ -1,6 +1,7 @@
 ## The project for Web application 
 
 Group components (add yourself):
-  - Emilio Risi 
+  - Emilio Risi
+  - Gianluca Antolini
 
 
