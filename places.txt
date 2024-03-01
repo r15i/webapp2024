@@ -1,0 +1,10 @@
+# tomcat conf
+
+/etc/tomcat10 
+/usr/share/tomcat10/
+/usr/share/java/tomcat10/ (libraries)
+/var/log/tomcat10/ (log files)
+
+/var/lib/tomcat10/webapps/ (where tomcat10 deploy the web app)
+var/lib/tomcat10/webapps/ROOT/ ( folder for the code)
+

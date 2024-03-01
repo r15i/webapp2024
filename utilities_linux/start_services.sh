@@ -1,2 +1,2 @@
-systemctl start httpd.service
-systemctl start tomcat10
+sudo systemctl start tomcat10 &
+
