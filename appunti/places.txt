@@ -8,3 +8,11 @@
 /var/lib/tomcat10/webapps/ (where tomcat10 deploy the web app)
 var/lib/tomcat10/webapps/ROOT/ ( folder for the code)
 
+
+keep in mind that often we need to change the ownership of the tomcat installation to make it work 
+sudo chown tomcat10 work 
+service tomcat restar
+
+keep in mind that often we need to change the ownership of the tomcat installation to make it work 
+sudo chown -R tomcat10 path_of_the webapp
+service tomcat restartt

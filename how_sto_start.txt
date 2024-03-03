@@ -1,1 +1,3 @@
 source start.sh
+
+si potrebbe anche creare un fille separato che contiene tutti gli alias e chiamare ./start.sh con all'interno la chiamata di source (ma sarebbe inutile se non son un numero eccessivo si possono mettere anche tutti gli alias dentro a start.sh)

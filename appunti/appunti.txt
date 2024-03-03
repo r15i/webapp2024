@@ -1,0 +1,1 @@
+per l'installazione bisogna controllare bene che la directory dove è ostata l'applicazione sia effettivamente appartenente a tomcat10
