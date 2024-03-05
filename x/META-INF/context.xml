@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
   Licensed to the Apache Software Foundation (ASF) under one or more
   contributor license agreements.  See the NOTICE file distributed with
@@ -14,15 +15,9 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<!DOCTYPE HTML><html lang="en"><head>
-<meta charset="UTF-8">
-<title>Apache Tomcat Examples</title>
-</head>
-<body>
-<p>
-<h3>Apache Tomcat Examples</H3>
-<p></p>
-<ul>
-<li><a href="servlets">Servlets examples</a></li>
-</ul>
-</body></html>
+<Context>
+  <CookieProcessor className="org.apache.tomcat.util.http.Rfc6265CookieProcessor"
+                   sameSiteCookies="strict" />
+  <Valve className="org.apache.catalina.valves.RemoteAddrValve"
+         allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />
+</Context>

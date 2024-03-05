@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
   Licensed to the Apache Software Foundation (ASF) under one or more
   contributor license agreements.  See the NOTICE file distributed with
@@ -14,15 +15,14 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<!DOCTYPE HTML><html lang="en"><head>
-<meta charset="UTF-8">
-<title>Apache Tomcat Examples</title>
-</head>
-<body>
-<p>
-<h3>Apache Tomcat Examples</H3>
-<p></p>
-<ul>
-<li><a href="servlets">Servlets examples</a></li>
-</ul>
-</body></html>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                      https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+  version="6.0"
+  metadata-complete="true">
+
+        <servlet-name>HelloWorldExample</servlet-name>
+        <url-pattern>/HelloWorldExample</url-pattern>
+    </servlet-mapping>
+</web-app>
