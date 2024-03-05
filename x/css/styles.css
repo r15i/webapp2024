@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensure content overflow is hidden */
+}
+
+.slider {
+  display: flex;
+  /* Modify the animation to have a single iteration */
+  animation: slide 10s linear forwards;
+}
+
+.slider img {
+  width: 200px;
+  height: 200px;
+  margin: 0 10px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-40%); /* Start from the initial position */
+  }
+  100% {
+    /* Translate images to the left edge of the screen */
+    transform: translateX(10%);
+    /* Adjust 100px according to the half of the image width and any extra offset you want */
+  }
+}
