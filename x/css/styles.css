@@ -14,25 +14,33 @@ body {
   overflow: hidden; /* Ensure content overflow is hidden */
 }
 
-.slider {
-  display: flex;
-  /* Modify the animation to have a single iteration */
-  animation: slide 10s linear forwards;
+
+.taco,
+.thinghy1 {
+  position: absolute;
 }
 
-.slider img {
-  width: 200px;
-  height: 200px;
-  margin: 0 10px;
+.taco {
+  width: 30%; /* Set the width to 50% of its container */
+  height: auto; /* Maintain aspect ratio */ 
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%); /* Move the containers to center */
+  transform: rotate(100deg);
+  animation: slide 2s ease infinite; /* Apply animation 'slide' with a duration of 2 seconds, easing function 'ease', and repeat infinitely */
 }
 
+.thinghy1 {
+  width: 30%; /* Set the width to 50% of its container */
+  height: auto; /* Maintain aspect ratio */ 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Move the containers to center */
+  animation: slide 2s ease infinite; /* Apply animation 'slide' with a duration of 2 seconds, easing function 'ease', and repeat infinitely */
+}
+
+/* Define the animation */
 @keyframes slide {
-  0% {
-    transform: translateX(-40%); /* Start from the initial position */
-  }
-  100% {
-    /* Translate images to the left edge of the screen */
-    transform: translateX(10%);
-    /* Adjust 100px according to the half of the image width and any extra offset you want */
-  }
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(-50%); }
 }
