@@ -21,26 +21,33 @@ body {
 }
 
 .taco {
-  width: 50%; /* Set the width to 50% of its container */
+  width: 40%; /* Set the width to 50% of its container */
   height: auto; /* Maintain aspect ratio */ 
   top: 50%;
-  left: 20%;
+  left: 30%;
   transform: translate(-50%, -50%); /* Move the containers to center */
-  transform: rotate(100deg);
-  animation: slide 2s ease infinite; /* Apply animation 'slide' with a duration of 2 seconds, easing function 'ease', and repeat infinitely */
+
+  animation: slideFadeIn 2s ease forwards;
+
 }
 
 .thinghy1 {
   width: 40%; /* Set the width to 50% of its container */
   height: auto; /* Maintain aspect ratio */ 
-  top: 50%;
-  left: 50%;
+  top: 64%;
+  left: 46%;
   transform: translate(-50%, -50%); /* Move the containers to center */
-  animation: slide 2s ease infinite; /* Apply animation 'slide' with a duration of 2 seconds, easing function 'ease', and repeat infinitely */
+
+  animation: slideFadeIn 2s ease forwards;
 }
 
-/* Define the animation */
-@keyframes slide {
-  0% { transform: translateX(-50%); }
-  100% { transform: translateX(-50%); }
+@keyframes slideFadeIn {
+  0% {
+    transform: translate(-150%, -50%) rotate(90deg); /* Start position and rotation */
+    opacity: 0; /* Start with 0 opacity */
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(110deg); /* End position and rotation */
+    opacity: 1; /* Fully faded in */
+  }
 }
