@@ -9,7 +9,5 @@ echo chainging the ownership to make it executable by the service
 sudo chown -R tomcat10 /var/lib/tomcat10/webapps/x/ 
 echo restarting the service 
 sudo systemctl restart tomcat10
-sleep 3 
-echo updating the screen
-xdotool search --onlyvisible --class Chrome windowfocus key ctrl+r
-
+echo opening the deployed site 
+google-chrome-stable http://localhost:8080/x/ > /dev/null &

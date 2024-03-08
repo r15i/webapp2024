@@ -21,7 +21,7 @@ body {
 }
 
 .taco {
-  width: 30%; /* Set the width to 50% of its container */
+  width: 50%; /* Set the width to 50% of its container */
   height: auto; /* Maintain aspect ratio */ 
   top: 50%;
   left: 20%;
@@ -31,7 +31,7 @@ body {
 }
 
 .thinghy1 {
-  width: 30%; /* Set the width to 50% of its container */
+  width: 40%; /* Set the width to 50% of its container */
   height: auto; /* Maintain aspect ratio */ 
   top: 50%;
   left: 50%;
