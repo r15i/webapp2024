@@ -13,9 +13,13 @@ p_col = range(63,77)
 
 # TO DO 
 
-# extract all the unique ingredients and give them an id to link them with the recepie 
-# extract all the recepies and give them an id 
-# 
+# reduce recepie and format it to have only the id and other stuff
+# extract the list of ingredients for each and make the Recepie ingredient tab 
+# reformat ingredients and try to preserve the food categories 
+# need to plot and figure how is done 
+# there are some errors like herbs and spices uses comma so sometimes it sucks
+
+
 
 
 
