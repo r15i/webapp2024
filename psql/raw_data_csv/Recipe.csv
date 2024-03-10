@@ -1,0 +1,4 @@
+id,name,description,time_minutes,difficulty,image_url,user_id,approved
+1,Pasta Carbonara,Classic Italian pasta dish,30,Easy,pasta_carbonara.jpg,1,true
+2,Chicken Curry,Spicy Indian curry dish,45,Medium,chicken_curry.jpg,2,false
+3,Caesar Salad,Fresh salad with Caesar dressing,15,Easy,caesar_salad.jpg,1,true
