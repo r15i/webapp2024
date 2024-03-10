@@ -1,0 +1,102 @@
+ID,Name,CategoryID,Cost,Difficulty,PreparationTime,Ingredients,Preparations,Link
+1,Spaghetti alla Carbonara,3,2,2,25,[0 0 0 0 0 0 2 0 0 0 5 3 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 1 0 0 0 0 0 0],[4 2 0 0 1 0 0 0],https://ricette.giallozafferano.it/Spaghetti-alla-Carbonara
+2,Spaghetti alle vongole,3,3,2,40,[0 0 0 0 0 0 0 0 0 2 5 0 0 0 0 3 0 0 0 5 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0],[4 0 0 0 0 0 2 0],https://ricette.giallozafferano.it/Spaghetti-alle-vongole
+3,Spaghetti Cacio e Pepe,3,2,2,20,[0 0 0 0 0 0 4 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0],[4 1 0 0 3 0 0 0],https://ricette.giallozafferano.it/Spaghetti-Cacio-e-Pepe
+4,Spaghetti all'Amatriciana,3,2,2,35,[0 0 0 0 0 0 2 0 0 1 5 0 0 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 0 1 0 0 0 0 1 0],[4 2 0 0 0 0 3 0],https://ricette.giallozafferano.it/Spaghetti-all-Amatriciana
+5,Penne al baffo,3,2,2,17,[0 0 0 0 0 0 0 0 0 1 5 0 0 0 2 1 0 0 3 0 0 0 3 0 0 0 0 0 0 1 0 0 0 0 0 0],[4 1 0 0 0 0 0 0],https://ricette.giallozafferano.it/Penne-al-baffo
+6,Lasagne alla Bolognese,3,3,3,55,[3 0 0 0 1 0 3 0 0 2 0 0 0 4 5 1 0 0 3 0 0 0 2 0 0 0 0 0 0 1 0 0 0 1 1 0],[0 2 0 0 0 5 4 2],https://ricette.giallozafferano.it/Lasagne-alla-Bolognese
+7,Parmigiana di melanzane,4,3,3,140,[0 0 0 0 0 0 3 0 0 2 0 0 0 0 3 2 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 0 5 0 0],[1 2 4 0 0 4 1 0],https://ricette.giallozafferano.it/Parmigiana-di-melanzane
+8,Gateau di patate,2,2,2,100,[0 0 1 0 0 0 3 0 0 2 0 4 0 0 0 0 0 0 0 0 0 0 6 0 0 0 0 0 3 1 0 0 0 5 0 0],[3 0 0 0 0 5 0 0],https://ricette.giallozafferano.it/Gateau-di-patate
+9,Spaghetti allo scoglio,3,4,3,55,[0 0 0 0 0 0 0 0 0 2 5 0 0 0 3 4 0 0 0 12 0 0 0 0 0 4 0 0 0 1 0 0 0 0 1 0],[4 0 0 0 0 0 4 0],https://ricette.giallozafferano.it/Spaghetti-allo-scoglio
+10,Arancine,1,2,3,105,[0 0 2 0 1 5 3 0 0 3 0 0 0 0 3 0 0 2 2 0 0 0 3 0 0 0 0 0 0 3 0 0 0 0 1 0],[4 1 4 0 0 0 0 2],https://ricette.giallozafferano.it/Arancini-di-riso
+11,Pasta e fagioli,3,2,1,125,[0 0 0 0 0 0 0 0 0 1 5 0 0 0 5 7 0 5 0 0 0 0 4 0 0 0 0 0 0 1 0 0 0 2 0 0],[0 3 0 0 0 0 4 0],https://ricette.giallozafferano.it/Pasta-e-fagioli
+12,Pasta alla gricia,3,3,2,25,[0 0 0 0 0 0 4 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0],[4 3 0 0 0 0 0 0],https://ricette.giallozafferano.it/Pasta-alla-gricia
+13,Crema di zucca,3,2,2,50,[0 0 0 3 0 0 0 0 0 2 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 8 0 0],[0 4 0 0 0 4 4 0],https://ricette.giallozafferano.it/Crema-di-zucca
+14,Pasta al forno,3,3,2,110,[0 0 1 0 0 0 4 0 0 1 5 2 0 0 4 3 0 0 3 0 0 0 5 0 0 0 0 0 0 2 0 0 0 0 0 0],[4 2 0 0 0 5 0 0],https://ricette.giallozafferano.it/Pasta-al-forno
+15,Calamarata,3,4,2,70,[0 0 0 0 0 0 0 0 0 1 5 0 0 0 3 2 0 0 0 4 0 0 0 0 0 0 0 0 0 2 0 0 0 0 1 0],[4 0 0 0 0 2 3 0],https://ricette.giallozafferano.it/Calamarata
+16,Pollo alle mandorle,4,2,2,30,[0 0 0 0 0 0 0 5 0 2 0 2 2 0 2 0 0 0 0 0 0 4 0 0 0 0 0 0 0 1 0 0 0 0 0 0],[3 4 0 2 0 0 3 0],https://ricette.giallozafferano.it/Pollo-alle-mandorle
+17,Torta salata di melanzane,5,2,1,60,[0 0 0 0 0 0 4 0 0 1 0 0 0 5 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 5 0 0],[0 0 0 0 0 5 0 0],https://ricette.giallozafferano.it/Torta-salata-di-melanzane
+18,Vitello tonnato,1,4,2,85,[5 0 0 0 0 0 0 0 0 1 0 2 0 0 1 3 0 0 0 0 0 0 0 0 1 7 0 0 0 2 0 0 0 1 1 0],[4 0 0 0 0 0 3 0],https://ricette.giallozafferano.it/Vitello-tonnato
+19,Spaghetti con crema di burrata e melanzane,3,3,2,30,[0 0 0 0 0 0 0 0 0 1 5 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 3 1 0 0 0 3 0 0],[4 1 2 0 0 0 0 0],https://ricette.giallozafferano.it/Spaghetti-con-crema-di-burrata-e-melanzane
+20,Insalata tiepida di polpo e patate,4,3,2,85,[0 0 0 0 0 0 0 0 3 2 0 0 0 0 0 3 0 0 0 5 0 0 0 0 0 0 0 0 0 1 0 0 0 5 0 0],[5 0 0 0 0 0 0 0],https://ricette.giallozafferano.it/Insalata-tiepida-di-polpo-e-patate
+21,Scaloppine al limone,4,2,2,20,[5 0 0 0 1 0 0 0 0 3 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0],[0 4 0 0 0 0 3 0],https://ricette.giallozafferano.it/Scaloppine-al-limone
+22,Melanzane al forno,1,1,1,55,[0 0 0 0 0 0 3 0 0 1 0 0 0 0 3 1 0 0 0 0 0 0 0 0 2 0 0 0 0 1 0 0 0 5 0 0],[0 0 0 0 0 5 0 0],https://ricette.giallozafferano.it/Melanzane-al-forno
+23,Seppie con piselli,4,3,3,70,[0 0 0 2 0 0 0 0 0 1 0 0 0 0 2 2 0 4 0 5 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0],[0 0 0 0 0 0 3 4],https://ricette.giallozafferano.it/Seppie-con-piselli
+24,Torta salata di zucchine,5,3,3,75,[0 0 0 0 0 0 5 0 0 4 0 3 2 0 0 3 0 0 0 0 0 0 2 0 0 0 0 0 0 2 0 0 0 4 0 0],[0 0 0 0 0 4 0 3],https://ricette.giallozafferano.it/Torta-salata-di-zucchine
+25,Polpettine di tonno e ricotta,4,2,2,30,[0 0 1 0 0 0 2 0 0 3 0 2 0 0 0 1 0 0 0 0 0 0 0 0 1 6 0 0 4 1 0 0 0 0 0 0],[0 0 5 0 0 0 0 0],https://ricette.giallozafferano.it/Polpettine-di-tonno-e-ricotta
+26,Polpette di melanzane,1,2,2,90,[0 0 1 0 0 0 2 0 0 3 0 2 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0],[0 0 5 0 0 2 0 0],https://ricette.giallozafferano.it/Polpette-di-melanzane
+27,Conchiglioni ripieni,3,3,3,105,[3 0 0 0 0 0 2 0 0 2 4 2 0 0 3 3 0 0 0 0 0 0 3 0 0 0 0 0 4 1 0 0 0 0 1 0],[4 2 0 0 0 3 4 0],https://ricette.giallozafferano.it/Conchiglioni-ripieni
+28,Risotto allo Zafferano,3,3,3,30,[0 0 0 2 2 4 2 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 1 0],[0 2 0 0 3 0 0 0],https://ricette.giallozafferano.it/Risotto-allo-Zafferano
+29,Couscous alle verdure,3,2,2,40,[0 0 0 0 0 0 0 0 0 2 5 0 0 0 2 5 0 2 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 6 0 0],[0 4 0 0 0 0 4 0],https://ricette.giallozafferano.it/Couscous-alle-verdure
+30,Polpette al sugo,4,2,1,50,[5 0 2 0 0 0 2 0 0 1 0 3 0 0 3 2 0 0 0 0 0 0 3 0 0 0 0 0 0 2 0 0 0 0 0 0],[0 4 0 0 0 0 3 0],https://ricette.giallozafferano.it/Polpette-al-sugo
+31,Pasta e zucchine,3,1,1,20,[0 0 0 0 0 0 0 0 0 1 5 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0],[4 2 0 0 0 0 3 0],https://ricette.giallozafferano.it/Pasta-e-zucchine
+32,Salmone al forno,4,3,2,50,[0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 5 0 0 0 1 0 0 0 3 1 0],[0 0 0 0 0 5 0 0],https://ricette.giallozafferano.it/Salmone-al-forno
+33,Calamari ripieni,4,4,2,60,[0 0 1 0 0 0 1 0 0 1 0 2 0 0 0 2 0 0 0 5 0 0 0 0 0 4 0 0 0 1 0 0 0 0 3 0],[0 3 0 0 0 0 4 0],https://ricette.giallozafferano.it/Calamari-ripieni
+34,Pasta e patate alla napoletana,3,2,2,70,[0 0 0 0 0 0 1 0 0 1 5 0 0 0 2 2 0 0 0 0 0 0 3 0 0 0 0 0 0 1 0 0 0 4 0 0],[4 3 0 0 0 0 0 0],https://ricette.giallozafferano.it/Pasta-e-patate-alla-napoletana
+35,Gnocchi alla romana,3,2,3,50,[0 0 0 0 2 4 2 0 0 0 0 2 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0],[3 0 0 0 0 3 0 0],https://ricette.giallozafferano.it/Gnocchi-alla-romana
+36,Pizzoccheri alla valtellinese,3,2,3,45,[0 0 0 0 3 0 5 0 0 0 0 0 0 4 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0],[4 0 0 0 0 0 3 0],https://ricette.giallozafferano.it/Pizzoccheri-alla-valtellinese
+37,Pasta e lenticchie,3,1,2,70,[0 0 0 2 0 0 1 0 0 1 5 0 0 0 4 4 0 3 0 0 0 0 3 0 0 0 0 0 0 2 0 0 0 1 0 0],[4 2 0 0 0 0 0 3],https://ricette.giallozafferano.it/Pasta-e-lenticchie
+38,Pasta allo scarpariello,3,2,1,20,[0 0 0 0 0 0 3 0 0 1 5 0 0 0 3 2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0],[4 2 0 0 0 0 0 0],https://ricette.giallozafferano.it/Pasta-allo-scarpariello
+39,Cannelloni,3,2,2,140,[3 0 0 0 0 0 1 0 0 1 0 2 5 0 4 1 0 0 3 0 0 0 3 0 0 0 0 0 0 1 0 0 0 1 1 0],[0 2 0 0 0 5 3 0],https://ricette.giallozafferano.it/Cannelloni
+40,Sushi,2,3,3,110,[0 0 0 0 0 5 0 0 0 3 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 6 0 3 0 3 2 1 0 0 0 0],[5 0 0 0 0 0 0 0],https://ricette.giallozafferano.it/Sushi
+41,Gamberoni al forno,4,3,2,32,[0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 5 0 1 0 0 0 0 0 0],[0 0 0 0 0 5 0 0],https://ricette.giallozafferano.it/Gamberoni-al-forno
+42,Pasta alla zozzona,3,3,2,40,[0 0 0 0 0 0 3 0 0 1 5 2 0 0 3 0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0],[4 2 0 0 0 0 0 0],https://ricette.giallozafferano.it/Pasta-alla-zozzona
+43,Paccheri con carciofi alla carbonara,3,3,2,50,[0 0 0 0 0 0 3 0 0 1 5 2 0 0 0 1 0 0 0 0 0 0 3 0 0 0 0 0 0 1 0 0 0 3 1 0],[4 2 0 0 0 0 0 0],https://ricette.giallozafferano.it/Paccheri-con-carciofi-alla-carbonara
+44,Ossibuchi alla milanese,4,3,3,90,[4 0 0 2 2 0 0 0 1 2 0 0 2 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0],[0 2 0 0 0 0 4 0],https://ricette.giallozafferano.it/Ossibuchi-alla-milanese
+45,Trofie con crema di zucchine e pancetta,3,2,2,30,[0 0 0 0 0 0 0 0 0 1 5 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0 0 0 0 1 0 0 0 3 0 0],[5 3 0 0 0 0 0 0],https://ricette.giallozafferano.it/Trofie-con-crema-di-zucchine-e-pancetta
+46,Mozzarella in carrozza,1,2,2,28,[0 0 4 0 0 0 0 0 0 1 0 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0],[0 0 5 0 0 0 0 0],https://ricette.giallozafferano.it/Mozzarella-in-carrozza
+47,Brasato al Barolo,4,5,2,170,[5 0 0 0 1 0 0 0 0 1 0 0 0 0 2 4 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 2 3 0],[0 0 0 3 0 0 4 0],https://ricette.giallozafferano.it/Brasato-al-Barolo
+48,Baccalà in umido,4,3,2,70,[0 0 0 0 0 0 0 0 0 1 0 0 2 0 3 3 0 0 0 0 0 0 0 0 2 5 0 0 0 1 0 0 0 0 1 0],[0 3 0 0 0 0 0 4],https://ricette.giallozafferano.it/Baccala-in-umido
+49,Saltimbocca alla Romana,4,3,2,25,[5 0 0 0 1 0 0 0 0 1 0 0 2 0 0 1 0 0 0 0 0 0 4 0 0 0 0 0 0 1 0 0 0 0 1 0],[0 0 0 0 0 0 5 0],https://ricette.giallozafferano.it/Saltimbocca-alla-Romana
+50,Fiori di zucca in pastella,1,2,2,25,[0 0 0 0 0 0 0 0 0 3 0 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0],[0 0 5 0 0 0 0 0],https://ricette.giallozafferano.it/Fiori-di-zucca-in-pastella
+51,Gnocco fritto,1,2,4,62,[0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 2 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0],[0 0 5 0 0 0 0 0],https://ricette.giallozafferano.it/Gnocco-fritto
+52,Pollo al limone,4,2,2,35,[0 0 0 0 0 0 0 5 3 4 0 0 4 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0],[0 3 0 0 0 0 4 0],https://ricette.giallozafferano.it/Pollo-al-limone
+53,Insalata di riso,3,2,2,35,[0 0 0 0 0 4 2 0 0 0 0 0 0 0 2 1 0 2 0 0 0 0 2 0 2 2 0 0 0 0 0 0 0 4 0 0],[4 0 0 0 0 0 0 0],https://ricette.giallozafferano.it/Insalata-di-riso-classica
+54,Piadina Romagnola,2,1,2,34,[0 0 0 0 0 0 3 0 0 0 0 0 2 0 2 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0],[0 5 0 0 0 0 0 0],https://ricette.giallozafferano.it/Piadina-Romagnola
+55,Zuppa di ceci,3,2,2,130,[0 0 0 2 0 0 0 0 0 1 0 0 0 0 4 3 0 4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 2 0 0],[0 3 0 0 0 0 0 4],https://ricette.giallozafferano.it/Zuppa-di-ceci
+56,Spaghetti al tonno,3,1,1,15,[0 0 0 0 0 0 0 0 0 1 5 0 0 0 1 2 0 0 0 0 0 0 0 0 0 3 0 0 0 1 0 0 0 0 0 0],[4 2 0 0 0 0 0 0],https://ricette.giallozafferano.it/Spaghetti-al-tonno
+57,Pollo al curry,4,2,2,35,[0 0 0 0 0 3 0 4 0 2 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 19 0 0 0 0 0 1],[3 1 0 1 0 0 3 0],https://ricette.giallozafferano.it/Pollo-al-curry
+58,Spezzatino di vitello con patate,4,2,2,150,[4 0 0 2 0 0 0 0 0 1 0 0 1 0 1 4 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 5 1 0],[0 3 0 0 0 0 3 5],https://ricette.giallozafferano.it/Spezzatino-di-vitello-con-patate
+59,Risotto alla salsiccia,3,3,2,50,[0 0 0 3 2 5 2 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 4 0 0 0 0 0 0 3 0 0 0 0 2 0],[0 3 0 0 4 0 0 0],https://ricette.giallozafferano.it/Risotto-alla-salsiccia
+60,Crocchette di patate,1,1,2,75,[0 0 2 0 0 0 2 0 0 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 5 0 0],[3 0 5 0 0 0 0 0],https://ricette.giallozafferano.it/Crocchette-di-patate
+61,Riso alla cantonese,3,2,1,40,[0 0 0 0 0 5 0 0 0 1 0 3 0 0 0 1 0 3 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 1 0],[4 0 0 0 0 0 3 0],https://ricette.giallozafferano.it/Riso-alla-cantonese
+62,Gnocchi alla sorrentina,3,2,2,70,[0 0 0 0 0 0 3 0 0 1 0 2 4 0 3 2 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 4 0 0],[4 1 0 0 0 2 0 0],https://ricette.giallozafferano.it/Gnocchi-alla-sorrentina
+63,Paccheri al sugo di calamari,3,3,2,45,[0 0 0 0 0 0 0 0 0 1 5 0 0 0 3 2 0 0 0 4 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0],[4 0 0 0 0 0 3 0],https://ricette.giallozafferano.it/Paccheri-al-sugo-di-calamari
+64,Orecchiette broccoli e salsiccia,3,2,1,35,[0 0 0 0 0 0 0 0 0 1 4 0 0 0 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 1 0 0 0 3 1 0],[4 2 0 0 0 0 0 0],https://ricette.giallozafferano.it/Orecchiette-broccoli-e-salsiccia
+65,Pollo alla cacciatora,4,3,2,70,[0 0 0 0 0 0 0 5 0 1 0 0 0 0 4 4 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0],[0 0 0 0 0 0 3 5],https://ricette.giallozafferano.it/Pollo-alla-cacciatora
+66,Linguine gamberetti zucchine e zafferano,3,2,1,35,[0 0 0 0 0 0 0 0 0 1 4 0 0 0 0 3 0 0 2 0 0 0 0 0 0 0 0 3 0 2 0 0 0 3 1 0],[4 2 0 0 0 0 3 0],https://ricette.giallozafferano.it/Linguine-gamberetti-zucchine-e-zafferano
+67,Cornetti salati,1,2,2,45,[0 0 0 0 0 0 3 0 0 0 0 1 0 3 0 0 0 0 1 0 0 0 3 0 0 0 0 0 0 1 0 0 0 0 0 0],[0 0 0 0 0 5 0 0],https://ricette.giallozafferano.it/Cornetti-salati
+68,Salmone croccante,4,3,1,30,[0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 1 0 0],[0 0 0 0 0 5 0 0],https://ricette.giallozafferano.it/Salmone-croccante
+69,Risotto con zucchine,3,2,1,35,[0 0 0 2 1 4 1 0 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 3 1 0],[0 2 0 0 4 0 3 0],https://ricette.giallozafferano.it/Risotto-con-zucchine
+70,Genovese,3,2,2,280,[4 0 0 0 0 0 1 0 0 1 5 0 0 0 1 6 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0],[4 0 0 0 0 0 5 0],https://ricette.giallozafferano.it/Genovese
+71,Pesce spada alla siciliana,4,2,1,25,[0 0 0 0 0 0 0 0 0 1 0 0 0 0 2 2 0 0 0 0 0 1 0 0 2 4 0 0 0 1 0 0 0 0 0 0],[0 3 0 0 0 0 3 0],https://ricette.giallozafferano.it/Pesce-spada-alla-siciliana
+72,Cozze gratinate,1,3,2,45,[0 0 2 0 0 0 2 0 1 1 0 0 0 0 0 2 0 0 0 5 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0],[0 0 0 0 0 4 0 0],https://ricette.giallozafferano.it/Cozze-gratinate
+73,Scaloppine ai funghi,4,3,2,30,[4 0 0 0 2 0 0 0 0 2 0 0 2 0 0 3 0 0 0 0 3 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0],[0 3 0 0 0 0 4 0],https://ricette.giallozafferano.it/Scaloppine-ai-funghi
+74,Polpette di verdure,4,1,1,90,[0 0 0 0 0 0 2 0 0 1 0 2 0 0 0 4 0 2 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 8 0 0],[0 3 4 0 0 0 0 0],https://ricette.giallozafferano.it/Polpette-di-verdura
+75,Spezzatino di manzo,4,3,1,160,[4 0 0 3 1 0 0 0 0 1 0 0 1 0 2 5 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 2 2 0],[0 0 0 0 0 0 4 0],https://ricette.giallozafferano.it/Spezzatino-di-manzo
+76,Torta rustica salata,5,2,2,80,[0 0 0 0 2 0 2 0 0 0 0 0 0 3 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 2 0 0 0 2 0 0],[0 0 0 0 0 4 0 0],https://ricette.giallozafferano.it/Torta-rustica-salata
+77,Passatelli in brodo,3,2,1,15,[0 0 2 3 0 0 2 0 1 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0],[4 0 0 0 0 0 0 0],https://ricette.giallozafferano.it/Passatelli-in-brodo
+78,Arrosto di vitello al forno con patate,4,4,3,90,[5 0 0 0 0 0 0 0 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 3 1 0],[0 0 0 0 0 0 4 0],https://ricette.giallozafferano.it/Arrosto-di-vitello-al-forno-con-patate
+79,Pasta con la zucca,3,1,1,60,[0 0 0 2 0 0 0 0 0 1 5 0 0 0 0 2 0 0 0 0 0 0 3 0 0 0 0 0 2 1 0 0 0 4 0 0],[4 0 0 0 0 0 3 0],https://ricette.giallozafferano.it/Pasta-con-la-zucca
+80,Frittata di spaghetti,2,2,2,30,[0 0 0 0 0 0 4 0 0 1 3 3 0 0 0 2 0 0 1 0 0 0 2 0 0 0 0 0 0 1 0 0 0 0 0 0],[3 1 0 0 0 0 4 0],https://ricette.giallozafferano.it/Frittata-di-spaghetti
+81,Canederli alla tirolese (Knödel),3,2,2,55,[0 0 3 3 1 0 0 0 0 0 0 2 0 0 0 4 0 0 1 0 0 0 2 0 0 0 0 0 0 1 0 0 0 0 0 0],[3 3 0 0 0 0 0 0],https://ricette.giallozafferano.it/Canederli-alla-tirolese-Knodel
+82,Spaghetti alla puttanesca,3,2,2,40,[0 0 0 0 0 0 0 0 0 1 5 0 0 0 3 2 0 0 0 0 0 0 0 0 4 2 0 0 0 1 0 0 0 0 0 0],[4 3 0 0 0 0 0 0],https://ricette.giallozafferano.it/Spaghetti-alla-puttanesca
+83,Pasta al forno con broccoli e pancetta,3,2,2,53,[0 0 0 0 0 0 5 0 0 1 5 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 4 0 0],[0 2 0 0 0 4 2 0],https://ricette.giallozafferano.it/Pasta-al-forno-con-broccoli-e-pancetta
+84,Polpette di zucchine,1,1,1,35,[0 0 1 0 0 1 2 0 0 1 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 4 0 0],[0 0 4 0 0 0 0 0],https://ricette.giallozafferano.it/Polpette-di-zucchine
+85,Carne alla pizzaiola,4,3,1,20,[4 0 0 0 0 0 0 0 0 1 0 0 0 0 3 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0],[0 2 0 0 0 0 4 0],https://ricette.giallozafferano.it/Carne-alla-pizzaiola
+86,Cosce di pollo al forno,4,2,2,100,[0 0 0 0 0 0 0 5 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 2 0 0],[0 0 0 0 0 4 0 0],https://ricette.giallozafferano.it/Cosce-di-pollo-al-forno
+87,Vellutata di zucca,3,1,2,45,[0 0 0 2 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 4 0 0],[0 1 0 0 0 0 4 0],https://ricette.giallozafferano.it/Vellutata-di-zucca
+88,Capesante gratinate,1,3,1,30,[0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 3 0 0 0 5 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0],[0 0 0 0 0 4 0 0],https://ricette.giallozafferano.it/Capesante-gratinate
+89,Pasta alla cenere,3,1,1,25,[0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 2 0 0 0 0 0 1 0 0 0 3 1 0 0 0 0 0 0],[4 0 0 0 0 0 2 0],https://ricette.giallozafferano.it/Pasta-alla-cenere
+90,Polpette di carne,4,2,2,40,[4 0 1 0 0 0 4 0 0 1 0 2 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0],[0 0 4 0 0 0 0 0],https://ricette.giallozafferano.it/Polpette-di-carne
+91,Pasta alla marinara,3,5,3,40,[0 0 0 0 0 0 0 0 0 1 5 0 0 0 3 3 0 0 0 6 0 0 0 0 0 2 0 2 0 1 0 0 0 0 0 0],[4 1 0 0 0 0 3 0],https://ricette.giallozafferano.it/Pasta-alla-marinara
+92,Pasta agli asparagi,3,2,2,40,[0 0 0 0 0 0 2 0 0 0 5 0 0 0 4 2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0],[4 0 0 0 0 0 2 0],https://ricette.giallozafferano.it/Pasta-agli-asparagi
+93,Spaghetti aglio olio e peperoncino,3,1,1,15,[0 0 0 0 0 0 0 0 0 2 5 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0],[4 3 0 0 0 0 0 0],https://ricette.giallozafferano.it/Spaghetti-aglio-olio-e-peperoncino
+94,Pomodori ripieni,3,2,2,100,[0 0 0 0 0 2 6 0 0 1 0 0 0 0 5 3 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0],[3 3 0 0 0 0 3 0],https://ricette.giallozafferano.it/Pomodori-ripieni
+95,Ali di pollo e patate saporite,4,2,1,70,[0 0 1 0 0 0 1 5 0 1 0 2 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0],[0 0 0 0 0 4 0 0],https://ricette.giallozafferano.it/Ali-di-pollo-e-patate-saporite
+96,Pasta con asparagi e pancetta,3,2,2,45,[0 0 0 0 0 0 0 0 0 1 5 0 0 0 4 1 0 0 0 0 0 0 3 0 0 0 0 0 0 1 0 0 0 0 0 0],[4 3 0 0 1 0 0 0],https://ricette.giallozafferano.it/Pasta-con-asparagi-e-pancetta
+97,Orecchiette con le cime di rapa,3,2,2,45,[0 0 2 0 0 5 0 0 0 1 0 0 0 0 4 1 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0],[4 3 0 0 0 0 2 0],https://ricette.giallozafferano.it/Orecchiette-con-le-cime-di-rapa
+98,Carbonara di mare,3,3,2,45,[0 0 0 0 0 0 1 0 0 1 5 1 0 0 0 2 0 0 0 0 0 0 0 0 0 6 0 0 0 1 0 0 0 0 1 0],[4 3 0 0 0 0 0 0],https://ricette.giallozafferano.it/Carbonara-di-mare
+99,Tagliatelle ai funghi porcini,3,3,3,65,[0 0 0 0 2 4 0 0 0 1 0 4 4 0 0 2 0 0 0 0 2 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0],[4 0 0 0 0 0 3 0],https://ricette.giallozafferano.it/Tagliatelle-ai-funghi-porcini
+100,Risotto ai funghi porcini,3,4,2,45,[0 0 0 2 1 5 2 0 0 1 0 0 0 0 0 3 0 0 0 0 3 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0],[4 1 0 0 3 0 2 0],https://ricette.giallozafferano.it/Risotto-ai-funghi-porcini
+101,Spezzatino con piselli,4,3,2,115,[4 0 0 2 0 0 0 0 0 1 0 0 1 0 2 1 0 2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0],[0 0 0 0 0 0 4 0],https://ricette.giallozafferano.it/Spezzatino-con-piselli
