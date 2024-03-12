@@ -10,7 +10,7 @@ CREATE TABLE "Recipe"(
     "description" VARCHAR(255) NOT NULL,
     "time_minutes" INTEGER NOT NULL,
     "difficulty" VARCHAR(255) CHECK
-        ("difficulty" IN('')) NOT NULL,
+        ("difficulty" IN('easy','medium','hard')) NOT NULL,
         "image_url" VARCHAR(255) NOT NULL,
         "user_id" INTEGER NOT NULL,
         "approved" BOOLEAN NULL

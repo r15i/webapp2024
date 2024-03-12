@@ -1,8 +1,14 @@
 import pandas as pd
 import numpy as np
-
+import os 
 pd.options.mode.chained_assignment = None  # default='warn'
 path = "./db_form_csv/"
+
+# deleting previus verion 
+os.system(f"rm -rf {path}")
+os.system(f"mkdir {path}")
+
+
 # takes in input a dataframe rec , keep only the columns with the same name as in the name 
 
 
@@ -59,16 +65,8 @@ form_rec = [
 # Read the CSV file into a DataFrame
 df = pd.read_csv("./csv_data/recipes.csv", sep=";")
 df.columns = df.columns.str.lower()
-# cleaning from non existent stuff
-
-#nan_p = np.where(pd.isna(df["id"]))[0][0]
-#df = df[:nan_p]j
-
+# cleaning from non existent stuff 
 df = df[:np.where(pd.isna(df["id"]))[0][0]]
-df["id"] = df["id"].astype(int)
-
-
-
 
 #columns in the recepie 
 r_col = list(range(0, 8))
@@ -79,16 +77,41 @@ i_col = list(range(8, 62))
 # getting only the columns of recepie it's ingredients
 rec = df.iloc[:, r_col]
 
-df.rename(columns={'ingredient': 'name'}, inplace=True)
-# adding column if is not present
+
+
+# renaming the ingredient to name 
+rec.rename(columns={'ingredient': 'name'}, inplace=True)
+# preparation time  to time_minutes
+rec.rename(columns={'preparation time': 'time_minutes'}, inplace=True)
+# link to ddimage_url
+rec.rename(columns={'link': 'ddimage_url'}, inplace=True)
+
+# chainging the type 
+rec["id"] = rec["id"].astype(int)
+rec["time_minutes"] = rec["time_minutes"].astype(int)
+rec["difficulty"] = rec["difficulty"].astype(int)
+
+# change the value to a strin
+rec['difficulty'] = rec['difficulty'].map({1: 'easy', 2: 'medium', 3: 'hard', 4: 'hard'})
+
+# adding missing columns  if is not present
 for i in form_rec:
     if not (i in rec.columns):
         rec.loc[:, i] = pd.Series(dtype=str)
-# renaming the entries we want to keep 
 # keeping and reorganizing only the stuff form we want
 rec = rec[form_rec]
+
+# insert empty placholder in description 
+rec['description'] = "<description of " + rec['id'].astype(str)+" " + rec['name'].astype(str)+">"
+# insert in each entry the user_id 
+# i assumed the user 1 entered all the initial recepies 
+rec['user_id'] = 1
+# insert as approved 
+rec['approved'] = 1
+
 # save recepie to  csv in good format without index of pandas
 rec.to_csv(path + "Recipe.csv", index=False)
+
 
 """
 Recipe_Ingredient.csv
@@ -127,7 +150,7 @@ print(empty_df)
 
 
 # id of the recepie 
-id_rec = rec["id"]
+ids_rec = rec["id"]
 # need to append for each recepie 
 form_rec_ing = ["recipe_id","ingredient_id"]
 rec_ing = df.iloc[:, i_col]
@@ -135,30 +158,36 @@ rec_ing = df.iloc[:, i_col]
 
 
 
-
-
-
-
 # for every row 
-#selecting the row 
-row = rec_ing.iloc[0,:]
-#dropping the nans value 
-row = row.dropna()
-# getting only the columns with the id 
-ing_id = row[row.index.str.startswith('ingredient')]
-ing_id = ing_id[ing_id.index.str.contains('id')]
+for i,r in enumerate(ids_rec):
+    id_rec = ids_rec[i]
+    #selecting the row 
+    row = rec_ing.iloc[i,:]
+    #dropping the nans value 
+    row = row.dropna()
+    # getting only the columns with the id 
+    ing_id = row[row.index.str.startswith('ingredient')]
+    ing_id = ing_id[ing_id.index.str.contains('id')]
+    ing_id = ing_id.astype(int)
+    ing_id = list(ing_id)
+
+    # create an empty DataFrame 
+    # Create an empty DataFrame for the ingredient
 
 
-# create an empty DataFrame 
-# Create an empty DataFrame for the ingredient
-tmp = pd.DataFrame()
-# row to append
-data = {id_rec[0]:  list(ing)}
-# Append data to the empty DataFrame
-empty_df = empty_df.append(pd.DataFrame(data))
+    # row to append
+    data = {form_rec_ing[0]:[id_rec]*len(ing_id),form_rec_ing[1]: ing_id}
+    
+    
+
+    tmp = pd.DataFrame(data)
+    tmp  =  tmp.drop_duplicates()
 
 
+    if(i ==0):
+        tmp.to_csv(path + "Recipe_Ingredient.csv",mode = "a", index=False)
+    else:
+        tmp.to_csv(path + "Recipe_Ingredient.csv",mode = "a",header = False ,index=False)
+    
 
-
-
-
+print(f"the db are being saved into {path}")

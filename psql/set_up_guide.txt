@@ -1,0 +1,52 @@
+
+set up psql server
+1 need to switch to postgresql user and change the password 
+  
+
+
+         sudo passwd postgres 
+         su postgresql 
+
+  i set up as postgres postgres
+2 inizialize database cluster 
+  
+  initdb -D /var/lib/postgres/data
+
+3 go back in the normal user 
+
+4 restart service 
+  sudo systemctl restart postgresql
+5 go back again to postgresql 
+6 create database user 
+  createuser --interactive
+create a  db user with the same name of the unix user 
+DB CREATION 
+7 createdbname db 
+  createdb  db_name 
+8 load 
+psql -U r15i -d db_name 
+\i nome_file.sql 
+9 test 
+list tables \dt 
+list table  \d schema.tabella
+            \d public 
+SELECT * FROM your_table;
+
+
+10 delete database 
+  DROP DATABASE database_name;
+needs to be outside the database to delete (postrgres is considered the admin user)
+
+11 delete a table 
+DROP TABLE my_table;
+
+12 execute sql code from file  
+psql -d dinner_dilemma -f load_data.sql
+
+
+or from a file csv 
+\COPY your_table FROM 'test.csv' WITH (FORMAT CSV, HEADER true);
+
+
+
+
