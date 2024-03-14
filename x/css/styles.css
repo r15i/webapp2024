@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -11,34 +12,37 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden; /* Ensure content overflow is hidden */
 }
 
+.logo {
+  max-width: 100%; /* Set maximum width to 100% of its container */
+  max-height: 100%; /* Set maximum height to 100% of its container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 
 .taco,
 .thinghy1 {
-  position: absolute;
+  max-height: 100%; /* Set maximum height to 100% of its container */
+  max-width: 100%; /* Set maximum width to 100% of its container */
+  position: fixed;
+
 }
 
 .taco {
-  width: 40%; /* Set the width to 50% of its container */
-  height: auto; /* Maintain aspect ratio */ 
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%); /* Move the containers to center */
+  top: 0%; /* Position 50% from the top */
+  left: 0%; /* Position 30% from the left */
 
-  animation: slideFadeIn 2s ease forwards;
-
+  transform: translate(50%, 50%) rotate(110deg); /* End position and rotation */
 }
 
 .thinghy1 {
-  width: 40%; /* Set the width to 50% of its container */
-  height: auto; /* Maintain aspect ratio */ 
-  top: 64%;
-  left: 46%;
-  transform: translate(-50%, -50%); /* Move the containers to center */
+  top: 0%; /* Position 64% from the top */
+  left: 0%; /* Position 46% from the left */
 
-  animation: slideFadeIn 2s ease forwards;
+  transform: translate(50%, 50%) rotate(110deg); /* End position and rotation */
 }
 
 @keyframes slideFadeIn {
