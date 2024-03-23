@@ -1,1 +1,0 @@
-there is a problem with the jsp code not with the servlets

@@ -1,6 +1,0 @@
-id,email,password,name,surname,role_id,registration_date
-1,emilio.risi@studenti.unipd.it,9b96e9a7b00e4833ea8ac5169d6c69a87bb0591bae55f82910f10a661d4de286,Emilio,Risi,0,2022-03-10
-2,francesco.frigato@studenti.unipd.it,9b96e9a7b00e4833ea8ac5169d6c69a87bb0591bae55f82910f10a661d4de286,Francesco ,Frigato ,0,2022-03-10
-3,tommaso.bergamasco@studenti.unipd.it,9b96e9a7b00e4833ea8ac5169d6c69a87bb0591bae55f82910f10a661d4de286,Tommaso ,Bergamasco,0,2022-03-10
-4,andrea.felline@studenti.unipd.it,9b96e9a7b00e4833ea8ac5169d6c69a87bb0591bae55f82910f10a661d4de286,Andrea,Felline,0,2022-03-10
-5,gianluca.antolini@studenti.unipd.it,9b96e9a7b00e4833ea8ac5169d6c69a87bb0591bae55f82910f10a661d4de286,Gianluca,Antolini,0,2022-03-10

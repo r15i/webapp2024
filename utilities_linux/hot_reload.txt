@@ -1,3 +1,0 @@
-browser-sync start --server --files x/index.html
-browser-sync start --server --files index.html
-browser-sync start --server --files ../x/index.html
