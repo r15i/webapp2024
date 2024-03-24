@@ -1,0 +1,37 @@
+﻿Ingredient class;Class id;Metaclass;Metaclass ID
+Beef;1;Meat;7
+Berries;2;Fruit;5
+Bread;3;Flouries;4
+Broth;4;Herbs, Spices, Seasonings;6
+Butter;5;Dairies;2
+Cereals;6;Cereals;1
+Cheese;7;Dairies;2
+Chicken Meat;8;Meat;7
+Citrus Fruits;9;Fruit;5
+Condiments;10;Herbs, Spices, Seasonings;6
+Dry Pasta;11;Pasta;9
+Eggs;12;Eggs;3
+Flour;13;Flouries;4
+Fresh Pasta;14;Pasta;9
+Greens;15;Vegetables;12
+Herbs;16;Herbs, Spices, Seasonings;6
+Lake Fish;17;Seafood;10
+Legumes;18;Vegetables;12
+Milk and Cream;19;Dairies;2
+Molluscs;20;Seafood;10
+Mushrooms;21;Mushrooms and Truffles;8
+Nuts;22;Fruit;5
+Pork Meat;23;Meat;7
+Rabbit Meat;24;Meat;7
+Salty Fruits;25;Fruit;5
+Sea Fish;26;Seafood;10
+Sheep Meat;27;Meat;7
+Shellfish;28;Seafood;10
+Soft Cheese;29;Dairies;2
+Spices;30;Herbs, Spices, Seasonings;6
+Sweet Fruits;31;Fruit;5
+Sweeteners;32;Sweeteners;11
+Turkey Meat;33;Meat;7
+Vegetables;34;Vegetables;12
+Wines and Spirits;35;Herbs, Spices, Seasonings;6
+Yogurt;36;Dairies;2

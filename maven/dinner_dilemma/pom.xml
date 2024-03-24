@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<!--
+ 
+ Copyright 2018 University of Padua, Italy
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+     http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ 
+ Author: Nicola Ferro (ferro@dei.unipd.it)
+ Version: 1.0
+ Since: 1.0
+-->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>it.unipd.dei.webapp</groupId>
+
+	<artifactId>hello-world-servlet</artifactId>
+	
+	<version>1.00</version>
+
+	<packaging>war</packaging>
+
+	<!-- Project description elements -->
+	<name>Replies Hello World</name>
+
+	<description>Basic servlet replying "Hello, world!" to a GET request.</description>
+
+	<url>https://bitbucket.org/frrncl/webapp-unipd</url>
+
+	<inceptionYear>2018</inceptionYear>
+
+	<developers>
+		<developer>
+			<id>nf</id>
+			<name>Nicola Ferro</name>
+			<email>ferro@dei.unipd.it</email>
+			<url>http://www.dei.unipd.it/~ferro/</url>
+		</developer>
+	</developers>
+
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<organization>
+		<name>Department of Information Engineering (DEI), University of Padua, Italy</name>
+		<url>http://www.dei.unipd.it/en/</url>
+	</organization>
+
+	<!-- Build settings -->
+	
+	<!-- Specifies the encoding to be used for project source files -->
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>21</java.version> 
+	  <!-- Tomcat upload setup -->
+    <tomcat.username>robot</tomcat.username>
+    <tomcat.password>admin</tomcat.password>
+    <tomcat.hostname>localhost</tomcat.hostname>
+    <tomcat.port>8080</tomcat.port>
+    <tomcat.context>${project.artifactId} </tomcat.context>
+  </properties>
+	<!-- Configuration of the default build lifecycle -->
+	<build>
+		<defaultGoal>compile</defaultGoal>
+		
+		<!-- source code folder -->
+		<sourceDirectory>${basedir}/src/main/java</sourceDirectory>
+		
+		<!-- compiled code folder -->
+		<directory>${basedir}/target</directory>
+		
+		<!-- name of the generated package -->
+		<finalName>${project.artifactId}-${project.version}</finalName>
+
+		<!-- configuration of the plugins for the different goals -->
+		<plugins>
+		
+			<!-- compiler plugin: source and target code -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.12.1</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+			
+			
+			<!-- javadoc plugin: output in the javadoc folder -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.6.3</version>
+				<configuration>
+					<reportOutputDirectory>${basedir}/javadoc</reportOutputDirectory>
+					<author>true</author>
+					<nosince>false</nosince>
+					<show>protected</show>
+					<source>${java.version}</source>
+					<doctitle>${project.name} ${project.version} - Web Applications Code Examples</doctitle>
+					<windowtitle>${project.artifactId} ${project.version}</windowtitle>
+					<bottom>Copyright &#169; ${project.inceptionYear}&#x2013;{currentYear}
+						<![CDATA[<a href="https://www.unipd.it/en/" target="_blank">University of Padua</a>, Italy. All rights reserved.]]>
+						<![CDATA[<i>Web Applications</i> is a course of the <a href="https://degrees.dei.unipd.it/master-degrees/computer-engineering/" target="_blank">Master Degree in Computer Engineering</a> of the <a href="https://www.dei.unipd.it/en/" target="_blank">Department of Information Engineering</a>.]]>
+						<![CDATA[<i>Web Applications</i> is part of the teaching activities of the <a href="http://iiia.dei.unipd.it/" target="_blank">Intelligent Interactive Information Access (IIIA) Hub</a>.]]>
+					</bottom>
+					<detectJavaApiLink>true</detectJavaApiLink>
+					<detectLinks>true</detectLinks>
+					<validateLinks>true</validateLinks>
+				</configuration>
+			</plugin>
+
+			<!-- packager plugin: create a WAR file to be deployed -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.4.0</version>
+				<configuration>
+					<webXml>${basedir}/src/main/webapp/WEB-INF/web.xml</webXml>
+				</configuration>
+      </plugin>
+      <!-- Cargo Plugin -->
+      <plugin>
+          <groupId>org.codehaus.cargo</groupId>
+          <artifactId>cargo-maven2-plugin</artifactId>
+          <version>1.8.4</version> <!-- or the latest version -->
+          <configuration>
+              <container>
+                  <containerId>tomcat10x</containerId> <!-- Adjust containerId to match your Tomcat version -->
+                  <type>remote</type>
+              </container>
+              <configuration>
+                  <type>runtime</type>
+                  <properties>
+                      <cargo.remote.username>${tomcat.username}</cargo.remote.username>
+                      <cargo.remote.password>${tomcat.password}</cargo.remote.password>
+                      <cargo.hostname>${tomcat.hostname}</cargo.hostname>
+                      <cargo.servlet.port>${tomcat.port}</cargo.servlet.port>
+                  </properties>
+              </configuration>
+              <deployer>
+                  <type>remote</type>
+              </deployer>
+              <deployables>
+                  <deployable>
+                      <groupId>${project.groupId}</groupId>
+                      <artifactId>${project.artifactId}</artifactId>
+                      <type>war</type>
+                      <properties>
+                          <context>${tomcat.context}</context>
+                      </properties>
+                      <pingURL>http://${tomcat.hostname}:${tomcat.port}/${tomcat.context}</pingURL>
+                      <pingTimeout>10000</pingTimeout>
+                  </deployable>
+              </deployables>
+
+          </configuration>
+          <dependencies>
+              <dependency>
+                  <groupId>org.codehaus.cargo</groupId>
+                  <artifactId>cargo-core-uberjar</artifactId>
+                  <version>1.8.4</version> <!-- or the latest version -->
+              </dependency>
+          </dependencies>
+       </plugin>
+	</plugins>
+</build>
+
+	<!-- Dependencies -->
+	<dependencies>
+		<dependency>
+			<groupId>jakarta.servlet</groupId>
+			<artifactId>jakarta.servlet-api</artifactId>
+			<version>6.1.0-M2</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+</project>

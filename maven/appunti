@@ -1,0 +1,21 @@
+﻿
+note that the actual deploy of the war is made by using this 
+mvn clean package 
+
+mvn compile
+this only compile does not create the war file 
+
+
+
+set up for cargo autoload 
+https://www.baeldung.com/tomcat-deploy-war
+
+mvn cargo:deploy 
+to deploy with cargo on tomcat but it is not working
+NB only deploy to effectively do the changes i need do do both mvn clean package and cargo :deploy
+
+
+mvn cargo:undeploy 
+to remove a the deployed tomcat installation
+
+

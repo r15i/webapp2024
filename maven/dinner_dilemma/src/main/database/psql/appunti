@@ -1,0 +1,24 @@
+l'editor non inserisce gli enum quindi bisogna metterli a mano per difficulty 
+'Easy', 'Medium', 'Hard'
+
+
+CREATE TABLE "Recipe"(
+    "id" SERIAL NOT NULL,
+    "name" VARCHAR(255) NOT NULL,
+    "description" VARCHAR(255) NOT NULL,
+    "time_minutes" INTEGER NOT NULL,
+    "difficulty" VARCHAR(255) CHECK
+**        ("difficulty" IN('easy','medium','hard')) NOT NULL,   **
+        "image_url" VARCHAR(255) NOT NULL,
+        "user_id" INTEGER NOT NULL,
+        "approved" BOOLEAN NULL
+);
+
+
+psql:load_data.sql:5: ERRORE:  ci sono dati in eccesso dopo l'ultima colonna attesa
+CONTESTO: COPY Recipe, riga 2: "38, Low-Fat Berry Blue Frozen Dessert, description, "Make and share this Low-Fat Berry Blue Frozen D..."
+psql:load_data.sql:6: ERRORE:  ci sono dati in eccesso dopo l'ultima colonna attesa
+CONTESTO: COPY Ingredient, riga 32: "30,lemons, rind of"
+psql:load_data.sql:7: ERRORE:  un valore chiave duplicato viola il vincolo univoco "Recipe_Ingredient_pkey"
+DETTAGLI: La chiave (recipe_id, ingredient_id)=(43, 29) esiste già.
+CONTESTO: COPY Recipe_Ingredient, riga 58

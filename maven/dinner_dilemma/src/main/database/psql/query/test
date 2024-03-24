@@ -1,0 +1,34 @@
+SELECT * 
+FROM TAB ;
+
+SELECT : 
+FROM TAB ;
+
+
+select *
+from 
+
+SELECT *
+FROM "Recipe_Ingredient"
+LEFT JOIN "Ingredient"
+
+SELECT *
+FROM "Recipe_Ingredient"
+LEFT JOIN "Ingredient"
+on public."Recipe_Ingredient".ingredient_id = public."Ingredient".id;
+
+
+SELECT *
+FROM "Recipe_Ingredient"
+CROSS JOIN "Ingredient";
+
+
+SELECT *
+FROM "Recipe_Ingredient"
+CROSS JOIN "Ingredient" WHERE "Recipe_Ingredient".ingredient_id = "Ingredient".id;
+
+
+SELECT *
+FROM "Recipe_Ingredient"
+LEFT JOIN "Ingredient"
+ON public."Recipe_Ingredient".ingredient_id = public."Ingredient".id;
