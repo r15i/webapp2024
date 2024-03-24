@@ -1,0 +1,26 @@
+
+#location of the admin panel 
+http://localhost:8080/manager/html/
+
+http://localhost:8080/hello-world-servlet-1.00/ciao
+
+http://localhost:8080/webappname/servlet 
+
+
+# tomcat conf
+/etc/tomcat10 
+/usr/share/tomcat10/
+/usr/share/java/tomcat10/ (libraries)
+/var/log/tomcat10/ (log files)
+
+/var/lib/tomcat10/webapps/ (where tomcat10 deploy the web app)
+var/lib/tomcat10/webapps/ROOT/ ( folder for the code)
+
+
+keep in mind that often we need to change the ownership of the tomcat installation to make it work 
+sudo chown tomcat10 work 
+service tomcat restar
+
+keep in mind that often we need to change the ownership of the tomcat installation to make it work 
+sudo chown -R tomcat10 path_of_the webapp
+service tomcat restartt

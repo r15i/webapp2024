@@ -1,0 +1,1 @@
+systemctl status tomcat10
